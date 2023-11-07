@@ -1,0 +1,36 @@
+.vertical-line {
+  display: inline-block;
+  width: 1px;
+  height: 1em;
+  background-color: #000;
+  margin: 0 10px;
+}
+.square {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 5px;
+  color: white;
+}
+
+.movie-details {
+    display: flex;
+    align-items: flex-start; 
+    gap: 20px; 
+  }
+.movie-details img {
+  width: 171px;
+  height: 224px;
+}
+  .details {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .details p {
+    margin: 5px 0;
+  }
+  
+  .details strong {
+    margin-right: 5px;
+  }
